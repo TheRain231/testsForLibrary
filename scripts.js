@@ -63,13 +63,13 @@ function getWriterResult() {
     let result = '';
     switch (selectedSeason) {
         case 'весна':
-            result = 'Вы Александр Пушкин';
+            result = 'Вы Антон Чехов';
             break;
         case 'лето':
             result = 'Вы Лев Толстой';
             break;
         case 'осень':
-            result = 'Вы Антон Чехов';
+            result = 'Вы Александр Пушкин';
             break;
         case 'зима':
             result = 'Вы Федор Достоевский';
