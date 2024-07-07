@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кто ты из русских писателей?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Кто ты из русских писателей?</h1>
+    </header>
+    <main>
+        <form id="writers-test">
+            <p>Выберите ваше любимое время года:</p>
+            <label>
+                <input type="radio" name="season" value="весна"> Весна
+            </label>
+            <label>
+                <input type="radio" name="season" value="лето"> Лето
+            </label>
+            <label>
+                <input type="radio" name="season" value="осень"> Осень
+            </label>
+            <label>
+                <input type="radio" name="season" value="зима"> Зима
+            </label>
+            <button type="button" onclick="getWriterResult()">Узнать результат</button>
+        </form>
+        <p id="writers-result"></p>
+        <a href="index.html">Назад на главную</a>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

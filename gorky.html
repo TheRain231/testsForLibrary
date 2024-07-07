@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гадание по строчкам из произведений Горького</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Гадание по строчкам из произведений Горького</h1>
+    </header>
+    <main>
+        <form id="gorky-test">
+            <p>Выберите номер строки:</p>
+            <label>
+                <input type="radio" name="line" value="1"> 1
+            </label>
+            <label>
+                <input type="radio" name="line" value="2"> 2
+            </label>
+            <label>
+                <input type="radio" name="line" value="3"> 3
+            </label>
+            <button type="button" onclick="getGorkyResult()">Узнать результат</button>
+        </form>
+        <p id="gorky-result"></p>
+        <a href="index.html">Назад на главную</a>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
