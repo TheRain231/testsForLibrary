@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #b08130;
     color: white;
     padding: 1em;
     text-align: center;
@@ -31,7 +31,7 @@ section {
 }
 
 h1, h2 {
-    color: #333;
+    color: #fff;
 }
 
 .button-container {
@@ -41,7 +41,7 @@ h1, h2 {
 }
 
 .button {
-    background-color: #4CAF50;
+    background-color: #b08130;
     color: white;
     text-decoration: none;
     padding: 0.5em 1em;
@@ -53,5 +53,5 @@ h1, h2 {
 }
 
 .button:hover {
-    background-color: #45a049;
+    background-color: #c1915f;
 }
